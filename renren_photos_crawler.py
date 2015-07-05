@@ -118,7 +118,7 @@ def main():
     
     for rid, url in url_dict.iteritems():
         name = config.get('person', rid)
-        print 'start download' + ' ' + name + '\'s albums!'
+        print 'start downloading' + ' ' + name + '\'s albums!'
         print '----------------------------------------'
         # 为每个人创建一个单独的文件夹存储相册
         start_dir = config.get('dir', 'start_dir') + name + '/'
@@ -127,7 +127,7 @@ def main():
         img_dict = get_imgs(album_url_dict, headers)
         download_img(img_dict, album_url_dict, start_dir)
         print '----------------------------------------'
-        print 'end download!'
+        print 'end downloading!'
         print 
 
 # 程序入口
