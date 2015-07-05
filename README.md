@@ -23,7 +23,7 @@ $ pip install lxml requests
 # 配置文件
 `config.ini`
 
-* [cookie]
+* [cookie]  
 你的人人网cookie
 
 登录你得人人,在`renren.com`域下打开chrome的console，输入以下命令：
@@ -39,14 +39,14 @@ cookie = a=1; b=2; c=3
 ```
 `a=1; b=2; c=3`就是你使用`document.cookie`得到的cookie
 
-* [dir]
+* [dir]  
 你要将你的相册存储在哪里
 
 范例：
 ```
 start_dir = '/home/work/me/'
 ```
-* [person]
+* [person]  
 你想下载的相册的人的"人人ID"和"姓名"
 在`start_dir`下会建一个以“姓名”命名得文件夹，存储他的所有相册
 "人人ID"是该人在人人网得账号，就像你的QQ号一样，比如我得人人网首页是 `http://www.renren.com/353077725/profile`， 我得人人ID就是`353077725`
